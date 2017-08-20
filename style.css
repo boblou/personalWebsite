@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*:focus {
+    outline: 0px none transparent;
+}
+
+body {
+    font-family: "georgia";
+    font-size: 14px;
+    color: #483d8b;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: #483d8b;
+}
+
+a:hover {
+    border-bottom: 1px solid #dddddd;
+}
+
+.wrapper {
+    width: 550px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.head {
+    text-align: right;
+    padding-bottom: 10px;    
+    margin-bottom: 20px;
+}
+
+.foot {
+    padding-top: 10px;
+    border-top: 1px solid #dddddd;
+    margin-top: 50px;
+}
+
+.name {
+    font-size: 18px;
+    color: #483d8b;
+}
+
+ul {
+    list-style: none;
+}
+
+.topic {
+    margin-top: 10px;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #483d8b;
+}
+
+.posts li {
+    margin-top: 5px;
+}
+
+.date {
+    width: 120px;
+    display: inline-block;
+    color: #483d8b;
+}
+
